@@ -1,0 +1,19 @@
+.card {
+	background-color: #181818; /* Card background */
+	border-radius: 10px; /* Rounded corners */
+	box-shadow: 0 4px 8px rgba(255, 245, 255, 0.543); /* Subtle shadow */
+	padding: 20px; /* Inner spacing */
+	margin: 20px; /* Outer spacing */
+	transition: transform 0.2s; /* Smooth hover effect */
+}
+
+form {
+	align-content: center;
+	row-gap: 20px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	button {
+    	width: 90px;
+	}
+}
